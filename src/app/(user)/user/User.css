@@ -1,0 +1,8 @@
+/* User profile styles */
+.dashboard-primary-link {
+  @apply text-lg font-semibold text-primary;
+}
+
+.dashboard-card {
+  @apply rounded-lg border border-[#E6E6E6] bg-white;
+}
