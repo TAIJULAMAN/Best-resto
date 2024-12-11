@@ -1,16 +1,24 @@
 import React from "react";
-import BillingInfoContainer from "./_components/BillingInfoContainer";
 import Container from "@/components/ui/container";
+import CustomHeader from "@/components/shared/CustomHeader";
+import Billing from "@/components/bill/Billing";
 
-const BillingInfo = () => {
+const BillingInfoPage = () => {
   return (
-    <Container className="page-padding ">
+    <>
+     <CustomHeader
+        title="Billing Information"
+        breadcrumbs={[{ label: "Home", link: "/" }, { label: "Billing Information" }]}
+        backgroundImage="/menu1.png"
+      />
+    <Container className="page-padding">
       <h1 className="text-3xl font-bold text-primary-black lg:text-4xl">
         Billing Information
       </h1>
-      <BillingInfoContainer></BillingInfoContainer>
+      <Billing />
     </Container>
+    </>
   );
 };
 
-export default BillingInfo;
+export default BillingInfoPage;

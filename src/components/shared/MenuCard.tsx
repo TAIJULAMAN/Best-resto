@@ -28,7 +28,7 @@ const MenuCard = ({ data }: { data: TMenu }) => {
           </div>
         </Link>
 
-        <div className="absolute top-2 right-2 bg-primary-green hover:bg-primary-black/70 rounded-full p-3 cursor-pointer group duration-300 ease-in z-10">
+        <div className="absolute top-2 right-2 bg-orange-500 rounded-full p-3 cursor-pointer group  z-10">
           <ShoppingCart
             className="text-white group-hover:scale-110 duration-300 ease-in"
             size={22}

@@ -33,7 +33,7 @@ const TopRestaurant = () => {
 
       {/* Top Restaurants Grid Section */}
       <div className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-5 mx-auto place-items-center">
-        {restaurantData?.map((restaurant) => (
+        {restaurantData?.slice(0, 3)?.map((restaurant) => (
           <div key={restaurant.id} className="p-1">
             <RestaurantCard data={restaurant} />
           </div>

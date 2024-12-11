@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import heroImage from "@/assets/image/hero/hero.png";
 import line from "@/assets/image/hero/bg.png";
-import HeroSearch from "./HeroSearch";
+import HeroSearch from "../shared/HeroSearch";
 
 const Hero = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import MenuDetailsContainer from "./_components/MenuDetailsContainer";
+import MenuDetailsContainer from "../../../../components/menu/MenuDetailsContainer";
 import Container from "@/components/ui/container";
 
 const MenuDetailsPage = () => {

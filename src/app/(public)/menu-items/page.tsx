@@ -1,10 +1,10 @@
-import MenuItemsContainers from "./_components/MenuItemsContainers";
+import MenuItems from "../../../components/menu/MenuItems";
 import Container from "@/components/ui/container";
 
 const MenuItemsPage = () => {
   return (
     <Container className="page-padding">
-      <MenuItemsContainers></MenuItemsContainers>
+      <MenuItems/>
     </Container>
   );
 };

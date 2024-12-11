@@ -1,11 +1,11 @@
 import Container from "@/components/ui/container";
 import React from "react";
-import AboutUsContainer from "./_components/AboutContainer";
+import AboutUs from "../../../components/about/AboutUs";
 
 const AboutPage = () => {
   return (
     <Container className="page-padding">
-      <AboutUsContainer></AboutUsContainer>
+      <AboutUs />
     </Container>
   );
 };

@@ -1,18 +1,20 @@
 import React from "react";
-import SignUpForm from "./_components/SignUpForm";
+import SignUpForm from "../../../components/auth/SignUpForm";
 import Container from "@/components/ui/container";
-import { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Sign Up",
-  description: "Sign up to your account to continue using our services.",
-};
+import CustomHeader from "@/components/shared/CustomHeader";
 
 const SignUpPage = () => {
   return (
-    <Container className="flex-center min-h-[calc(100vh-200px)] mt-2">
-      <SignUpForm></SignUpForm>{" "}
-    </Container>
+    <>
+      <CustomHeader
+        title="Sign Up"
+        breadcrumbs={[{ label: "Home", link: "/" }, { label: "Sign up" }]}
+        backgroundImage="/menu1.png"
+      />
+      <Container className="flex-center min-h-[calc(100vh-200px)] mt-2">
+        <SignUpForm></SignUpForm>{" "}
+      </Container>
+    </>
   );
 };
 

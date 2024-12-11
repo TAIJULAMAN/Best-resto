@@ -1,20 +1,22 @@
-import { Metadata } from "next";
-import CartContainer from "./_components/CartContainer";
 import Container from "@/components/ui/container";
-
-export const metadata: Metadata = {
-  title: "Cart",
-  description: "Add items to your cart and checkout to complete your order.",
-};
+import CustomHeader from "@/components/shared/CustomHeader";
+import Cart from "@/components/cart/Cart";
 
 const CartPage = () => {
   return (
-    <Container className="page-padding ">
-      <h1 className="text-primary-black lg:text-4xl text-2xl font-bold">
-        My Shopping Cart
-      </h1>
-      <CartContainer />
-    </Container>
+    <>
+      <CustomHeader
+        title="Cart"
+        breadcrumbs={[{ label: "Home", link: "/" }, { label: "Cart" }]}
+        backgroundImage="/menu1.png"
+      />
+      <Container className="page-padding ">
+        <h1 className="text-black lg:text-4xl text-2xl font-bold">
+          My Shopping Cart
+        </h1>
+        <Cart />
+      </Container>
+    </>
   );
 };
 

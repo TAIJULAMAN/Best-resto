@@ -1,17 +1,21 @@
 import Container from "@/components/ui/container";
 import React from "react";
-import ForgetPasswordFrom from "./_components/ForgetPasswordForm";
-export const metadata = {
-  title: "Forget Password",
-  description:
-    "Forget Password? Don't worry, just enter your email address and we will send you a OTP code in your email  to reset your password.",
-};
+import ForgetPasswordFrom from "../../../components/auth/ForgetPasswordForm";
+import CustomHeader from "@/components/shared/CustomHeader";
+
 
 const ForgetPasswordPage = () => {
   return (
+    <>
+      <CustomHeader
+        title="Forget Password"
+        breadcrumbs={[{ label: "Home", link: "/" }, { label: "Forget Password" }]}
+        backgroundImage="/menu1.png"
+      />
     <Container className="flex-center min-h-[calc(100vh-200px)] mt-2">
       <ForgetPasswordFrom></ForgetPasswordFrom>
     </Container>
+    </>
   );
 };
 

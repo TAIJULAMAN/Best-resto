@@ -1,11 +1,11 @@
 export const MenuItem = {
   _id: "627c7fe488f7d2eac04f578b",
   id: "pasta-001",
-  name: "Creamy Alfredo Pasta",
+  name: "Delicious Tacos",
   description:
-    "A rich and creamy Alfredo pasta made with fresh cream, Parmesan cheese, and garlic.",
+    "A rich and healthy tacos made with fresh cream, Parmesan cheese, and garlic.",
   shortDescription: "Creamy, cheesy pasta dish.",
-  price: 12.99,
+  price: 17.28,
   category: {
     _id: "627c7fe488f7d2eac04f5790",
     name: "Pasta",
@@ -26,7 +26,7 @@ export const MenuItem = {
   stock: 50,
   sales: 120,
   size: ["Small", "Medium", "Large"],
-  discount: 10, // discount as a percentage
+  discount: 10,
   color: ["White", "Cream"],
   avgRating: 4.5,
   brand: "Italian Bistro",
@@ -37,23 +37,43 @@ export const MenuItem = {
     {
       user: {
         _id: "user123",
-        name: "John Doe",
+        name: "Shah Aman",
         image: "/profileImage.png",
       },
       comment: "Absolutely delightful!",
       rating: 5,
-      date: "2024-11-01",
+      date: "2024-12-11",
     },
     {
       user: {
         _id: "user123",
-        name: "John Doe",
-        image: "/profileImage.png",
+        name: "Md Moniruzzaman",
+        image: "/bappy.png",
+      },
+      comment: "Great to eat!",
+      rating: 5,
+      date: "2024-12-11",
+    },
+    {
+      user: {
+        _id: "user123",
+        name: "Mahbub Hasan",
+        image: "/badhon.png",
+      },
+      comment: "Awsome!",
+      rating: 5,
+      date: "2024-12-11",
+    },
+    {
+      user: {
+        _id: "user123",
+        name: "Rifat Nipa",
+        image: "/opu.png",
       },
       comment: "A bit too creamy for my taste.",
       rating: 3,
-      date: "2024-11-02",
+      date: "2024-12-11",
     },
   ],
-  quantity: 0, // Not required but optional
+  quantity: 0,
 };

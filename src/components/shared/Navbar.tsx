@@ -107,8 +107,8 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="duration-100">
-                  <Link href="/support" className="truncate btn-shine">
-                    Support
+                  <Link href="/about-us" className="truncate btn-shine">
+                    About Us
                   </Link>
                 </li>
               </ul>
@@ -201,7 +201,7 @@ const Navbar = () => {
                         <Link href="/coupon">Coupon</Link>
                       </li>
                       <li>
-                        <Link href="/support">Support</Link>
+                        <Link href="/about-us">About Us</Link>
                       </li>
                     </ul>
                   </nav>

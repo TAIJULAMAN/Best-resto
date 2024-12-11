@@ -1,11 +1,11 @@
 import Container from "@/components/ui/container";
 import React from "react";
-import SingleRestaurantContainer from "./_components/SingleRestaurantContainer";
+import SingleRestaurant from "../../../../components/restaurants/SingleRestaurant";
 
 const SIngleRestaurant = () => {
   return (
     <Container className="page-padding">
-      <SingleRestaurantContainer></SingleRestaurantContainer>
+      <SingleRestaurant/>
     </Container>
   );
 };

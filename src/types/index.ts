@@ -15,8 +15,9 @@ export type TMenu = {
   price: number;
 };
 
-export type TCategory = {
-  id: string;
+
+type TCategory = {
+  _id: string; 
   name: string;
   image: string;
 };
