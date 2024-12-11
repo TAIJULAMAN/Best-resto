@@ -9,17 +9,17 @@ export const MenuItem = {
   category: {
     _id: "627c7fe488f7d2eac04f5790",
     name: "Pasta",
-    image: "/menu.png",
+    image: "/menu1.png",
   },
   images: [
     {
       key: "img123",
-      url: "/menu.png",
+      url: "/menu1.png",
       _id: "img001",
     },
     {
       key: "img123",
-      url: "/menu.png",
+      url: "/menu1.png",
       _id: "img001",
     },
   ],

@@ -16,7 +16,6 @@ const BillingAddressForm = () => {
   const { register, handleSubmit, control, setValue } = useForm<FormInputs>();
 
   const onSubmit: SubmitHandler<FormInputs> = async (data) => {
-    console.log(data);
   };
 
   return (

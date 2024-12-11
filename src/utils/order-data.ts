@@ -13,7 +13,7 @@ export const orderData = [
         name: "Delicious Desserts",
         quantity: 2,
         price: 10,
-        image: "/menu.png",
+        image: "/menu1.png",
         discount: " 20%",
         totalPrice: 20,
       },

@@ -27,7 +27,7 @@ const ChangePasswordForm = () => {
   const onSubmit: SubmitHandler<ChangePasswordFormInputs> = async (
     data: ChangePasswordFormInputs
   ) => {
-    console.log(data);
+    //console.log(data);
   };
 
   return (

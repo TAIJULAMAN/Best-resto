@@ -9,7 +9,7 @@ import { useState } from "react";
 const Feedbacks = ({ reviews }: { reviews: any[] }) => {
   const [showFeedbacks, setShowFeedbacks] = useState(4);
 
-  console.log(reviews);
+  //console.log(reviews);
   return (
     <div>
       <h1 className=" text-xl font-semibold text-primary-black lg:text-2xl xl:text-4xl">

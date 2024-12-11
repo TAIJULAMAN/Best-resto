@@ -39,7 +39,7 @@ const SignUpForm = () => {
   } = useForm<FormData>();
 
   const onSubmit = async (data: FormData) => {
-    console.log(data);
+    //console.log(data);
   };
 
   return (

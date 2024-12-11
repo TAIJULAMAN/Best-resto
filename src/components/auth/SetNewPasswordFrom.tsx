@@ -25,7 +25,7 @@ const SetNewPasswordFrom = () => {
     watch,
   } = useForm<FormData>();
   const onSubmit = async (data: FormData) => {
-    console.log(data);
+    //console.log(data);
     router.push("/sign-in");
   };
 

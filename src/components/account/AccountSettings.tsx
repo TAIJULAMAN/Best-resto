@@ -24,7 +24,7 @@ const AccountSettings = () => {
   const [fileName, setFileName] = useState<File | null>(null);
   const [imageUrl, setImageUrl] = useState<string | null>(null);
 
-  console.log(imageUrl);
+  //console.log(imageUrl);
 
   // React Hook Form setup
   const {
@@ -40,7 +40,7 @@ const AccountSettings = () => {
 
     if (file) {
       const url = URL.createObjectURL(file);
-      console.log(url);
+      //console.log(url);
       setImageUrl(url);
       setFileName(file);
     } else {
@@ -52,7 +52,7 @@ const AccountSettings = () => {
   };
 
   const onSubmit: SubmitHandler<FormInputs> = async (data) => {
-    console.log(data);
+    //console.log(data);
   };
 
   return (

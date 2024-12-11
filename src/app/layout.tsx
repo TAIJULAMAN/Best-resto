@@ -34,7 +34,6 @@ export default function RootLayout({
           <Navbar></Navbar>
         </nav>
 
-        {/* sonner toaster */}
         <Toaster />
 
         <div className="min-h-[calc(100vh-121px)] pb-24 bg-[#FDFDFD]">

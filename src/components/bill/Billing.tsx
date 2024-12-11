@@ -55,7 +55,7 @@ const Billing = () => {
 
   // Form submission for  create order and payment
   const onSubmit: SubmitHandler<CheckoutFormInputs> = async (data) => {
-    console.log(data);
+    //console.log(data);
   };
 
   return (

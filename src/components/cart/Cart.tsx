@@ -27,13 +27,13 @@ const productData = [
   
   {
     name: "Freezer",
-    image: "/menu.png",
+    image: "/menu1.png",
     price: 299.99,
     quantity: 15,
   },
   {
     name: "TV",
-    image: "/menu.png",
+    image: "/menu1.png",
     price: 499.99,
     quantity: 20,
   },
@@ -43,6 +43,7 @@ const Cart = () => {
   const [quantities, setQuantities] = useState(
     productData.map((product) => product.quantity)
   );
+  const router = useRouter();
 
   const handleQuantityChange = (idx: number, change: number) => {
     setQuantities((prevQuantities) =>
@@ -50,6 +51,10 @@ const Cart = () => {
         index === idx ? Math.max(quantity + change, 0) : quantity
       )
     );
+  };
+
+  const handleProceed = () => {
+    router.push("/billing-info");
   };
 
   return (
@@ -158,13 +163,12 @@ const Cart = () => {
             </div>
           </CardContent>
           <CardFooter>
-            <link href="/billing-info">
             <Button
+              onClick={handleProceed}
               className="bg-primary w-full rounded-full hover:bg-primary-black/80"
             >
               Proceed to checkout
             </Button>
-            </link>
           </CardFooter>
         </Card>
       </div>

@@ -20,7 +20,7 @@ const SupportForm: React.FC = () => {
   } = useForm<TFormInput>();
 
   const onSubmit: SubmitHandler<TFormInput> = async (data) => {
-    console.log(data);
+    //console.log(data);
   };
 
   return (

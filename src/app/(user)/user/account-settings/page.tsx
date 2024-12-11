@@ -1,5 +1,5 @@
 import React from "react";
-import AccountSettings from "./_components/AccountSettings";
+import AccountSettings from "../../../../components/account/AccountSettings";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
